@@ -1,0 +1,126 @@
+	header{
+    border: 20px black  ridge;
+      height:362px;
+	width:97%;
+	text-align:center;
+	font-size:50px;
+	font-style: italic;
+	position:relative;
+	}
+	img{
+	
+	border-radius:40px;
+    margin-left:70px;
+    margin-top:40px;
+ 
+    }
+	#grad1 {
+    height: 300px;
+    background: red; 
+    background: -webkit-linear-gradient(white,green);
+	}
+	p{
+	font-family:sans-serif;
+	}
+	section{
+	background-color:darkorange;
+	width:66.5%;
+	position:relative;
+	height:1000px;
+	font-size:20px;
+	float:left;
+	margin: 0 0 0px 0px;
+	}
+	article{
+	font-size:25px;
+	
+	font-family:sans-serif;
+	text-indent: 50px;
+    margin-top: 40px;
+	margin-bottom: 40px;
+    margin-right: 80px;
+    margin-left: 80px;
+	text-align:justify;
+	}
+	body {
+    display:block;
+    margin: 0px;
+	}
+    .button {
+    background-color: green;
+    border-radius: 50%;
+    color: white;
+    padding: 17px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 6px;
+    cursor: pointer;
+	margin-top:15px;
+	height:32px;
+    }
+    div.background {
+     background: url("tt.jpg") repeat;
+     border: 5px solid black;
+     }
+
+    div.transbox {
+     margin: 30px;
+     background-color:green;
+    border: 5px solid black;
+     opacity: 0.6;
+     filter: alpha(opacity=60);
+     }
+
+    div.transbox  {
+    margin: 5%;
+   font-weight: bold;
+    color: black;
+    }
+    nav{
+    height:90px;
+    background-color:pink;
+	clear:both;
+    }
+    h1{color: green;
+    text-shadow: 3px 3px 4px white, 0 0 25px white, 0 0 7px white;
+	}
+    aside{
+    background-color:#008080;
+    height:1000px;
+    width:11%;
+    float: left;
+    margin: 0 0 0px 0px;
+    font-family:sans-serif;
+     position:relative;
+
+    }
+    #clearfix {
+    overflow: auto;
+    }
+    main{
+    background-color:black;
+    height:900px;
+
+    }
+    footer{
+    background-color:black;
+	height:150px;
+	width:100%;
+
+    }
+    img{
+    border:solid 10px black;
+    width:400px;
+    height:180px;
+
+    }
+    .ex h1 {
+	font-weight:30px;
+    width: 300px;
+    height: 120px;
+    padding: 25px;
+    background-color:pink;
+    box-shadow: 10px 10px lightgrey;
+    }

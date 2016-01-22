@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+<title>signup</title>
+<link rel="icon" href="fevicon.jpg" type="fevicon.jpg" sizes="16x16">
+</head>
+<style>
+    header{
+    border: 20px black  ridge;
+    height:362px;
+	width:97%;
+	text-align:center;
+	font-size:50px;
+	font-style: italic;
+	position:relative;
+	}
+	img{
+	
+	radius:40px;
+    margin-left:70px;
+    margin-top:40px;
+
+    }
+	#grad1 {
+    height: 300px;
+    background: red; 
+    background: -webkit-linear-gradient(white,green);
+	}
+	p{
+	font-family:sans-serif;
+	}
+	section{
+	background-color:darkorange;
+	width:66.5%;
+	position:relative;
+	height:800px;
+	font-size:20px;
+	float:left;
+	margin: 0 0 0px 0px;
+	}
+	body {
+    display:block;
+    margin: 0px;
+	}
+	.button {
+    background-color: green;
+    border-radius: 50%;
+    color: white;
+    padding: 17px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top:15px;
+	height:32px;
+    }
+    nav{
+    height:90px;
+    background-color:pink;
+    }
+    h1{
+	color: green;
+    text-shadow: 2px 2px 3px white, 0 0 25px white, 0 0 7px white;
+	}
+	
+    #clearfix {
+    overflow: auto;
+     }
+     main{
+     background-color:black;
+     height:900px;
+
+     }
+    footer{
+    background-color:black;
+    height:100px;
+
+    }
+    img{
+    border:solid 10px black;
+    width:400px;
+    height:180px;
+    }
+
+</style>
+<body>
+<header>
+<img src="logo.jpg" style="margin-top:50px; float:left;border-radius:40%">
+<h1 id="grad1">Technology</h1>
+</header>
+<main>
+<nav>
+ <a href="signup.html" class="button">SignUp</a>
+ <a href="detail.html" class="button">Detail</a>
+ <a href="technology.html" class="button">Home</a>
+
+</nav>
+<section>
+    <h1 style="text-align:center"><b>SignUp Page</b><h1>
+    <form style="text-align:center" >   
+    <label style="font-size:25px;">Name</label> <br>
+    <input name="name" placeholder="Type Here"><br> 
+	<lable style="font-size:25px;">male</label> <br>
+	<input type="radio" value="sex" name="male" checked> <br>
+	<lable style="font-size=25px;">female</label> <br>
+	<input type="radio" value="sex" name="female"> <br>
+	<lable style="font-size=25px"> city</label> <br>
+	<input list="city" name="city"><br>
+    <datalist id="city"><br>
+    <option value="lahore">
+    <option value="multan">
+    <option value="bwp">
+    <option value="islamabad">
+    <option value="karachi">
+    </datalist>       
+    <label style="font-size:25px;">Email</label> <br>
+    <input name="email" type="email" placeholder="Type Here"> <br>      
+    <label style="font-size:25px;">Message</label> <br>
+    <textarea name="message" placeholder="Type Here"></textarea> <br>      
+    <input id="submit" name="submit" type="submit" value="Submit">
+      <input id="cancel"  name="cancel" type="submit" value="cancel">
+    </form>
+    </section>
+    </main>
+    <footer style="height:350px;width:100%">
+    <p style="color:white;text-align:center">technology@copyright.com</p>
+    </footer>
+
+
+
+</body>
+</html>
